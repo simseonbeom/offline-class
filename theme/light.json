@@ -1,0 +1,38 @@
+{
+  "primary": {
+    "value": "#000000",
+    "type": "color"
+  },
+  "secondary": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "tertiary": {
+    "value": "#f5f5f5",
+    "type": "color"
+  },
+  "contents": {
+    "contentPrimary": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "contentSecondary": {
+      "value": "#6b6b6b",
+      "type": "color"
+    },
+    "contentTertiary": {
+      "value": "#a6a6a6",
+      "type": "color"
+    }
+  },
+  "border": {
+    "borderOpaque": {
+      "value": "#898989",
+      "type": "color"
+    },
+    "borderTransparent": {
+      "value": "#8989894d",
+      "type": "color"
+    }
+  }
+}

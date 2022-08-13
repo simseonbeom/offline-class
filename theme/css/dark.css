@@ -1,0 +1,10 @@
+.dark-theme {
+  --primary: #ffffff;
+  --secondary: #000000;
+  --tertiary: #2b2b2b;
+  --contents-content-primary: #ffffff;
+  --contents-content-secondary: #a6a6a6;
+  --contents-content-tertiary: #898989;
+  --border-border-opaque: #c4c4c4;
+  --border-border-transparent: #8989894d;
+}

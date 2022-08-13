@@ -1,0 +1,44 @@
+
+# workflow 이름
+name: Figma Tokens Tramsform
+
+# workflow를 동작하게 하는 trigger
+# repository에 push 이벤트가 발생할 때마다 실행
+on: [push]
+
+# 사용자가 정한 플랫폼에서 일련의 과정(step)을 순차적으로 실행
+# 하나 이상 여러 jobs 설정 가능
+jobs:
+  create-theme:
+    # job 이름
+    name: Create Theme JSON
+    # 리눅스 환경에서 jobs 실행 (다른 플랫폼 사용 가능)
+    runs-on: ubuntu-latest
+    # job 안에 설정된 steps를 통해 shell scripts 실행
+    # 다른 action 또한 실행 가능
+    steps:
+      # step 0. 체크아웃
+      - uses: actions/checkout@v2
+      # step 1. Node.js 구성
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.15.0'
+      # step 2. 종속성 모듈 설치
+      - name: Install Dependencies
+        run: npm i
+      # step 3. 테마 JSON 생성(변환)
+      - name: Create Theme Token
+        run: npm run theme:token
+      # step 4. 테마 CSS, SCSS, JS 생성(변환)
+      - name: Create Theme Resources
+        run: npm run theme:create
+      # step 5. 변경사항 커밋
+      - name: Commit changes
+        # 사용법 참고: https://github.com/EndBug/add-and-commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: kindtiger
+          author_email: seonbeom2@gmail.com
+          message: 'transform. create Theme Files'
+          add: '.'
