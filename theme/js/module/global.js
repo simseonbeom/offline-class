@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 13 Aug 2022 08:05:51 GMT
+ * Generated on Sun, 14 Aug 2022 01:37:05 GMT
  */
 
 module.exports = {
@@ -299,5 +299,19 @@ module.exports = {
       "blur": 24,
       "spread": 0
     }
+  },
+  "pink": {
+    "100": "#f8ccf9",
+    "200": "#f099f2",
+    "300": "#e966ec",
+    "400": "#e233e5",
+    "500": "#db00df",
+    "600": "#af00b2",
+    "700": "#830086",
+    "800": "#570059",
+    "900": "#2c002d"
+  },
+  "oragne": {
+    "orange": "#fc9300"
   }
 }
