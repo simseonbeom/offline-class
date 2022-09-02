@@ -308,15 +308,15 @@
     "type": "fontFamilies"
   },
   "Regular": {
-    "value": "Regular",
-    "type": "fontWeights"
-  },
-  "Bold": {
-    "value": "Bold",
+    "value": 400,
     "type": "fontWeights"
   },
   "SemiBold": {
-    "value": "SemiBold",
+    "value": 600,
+    "type": "fontWeights"
+  },
+  "Bold": {
+    "value": 700,
     "type": "fontWeights"
   },
   "fontScale": {
@@ -355,7 +355,7 @@
     "Medium": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "Bold",
+        "fontWeight": 700,
         "lineHeight": "140%",
         "fontSize": 16,
         "letterSpacing": "none",
@@ -368,7 +368,7 @@
     "Large": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "Bold",
+        "fontWeight": 700,
         "lineHeight": "140%",
         "fontSize": 21.328,
         "letterSpacing": "none",
@@ -381,7 +381,7 @@
     "XL": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "Bold",
+        "fontWeight": 700,
         "lineHeight": "140%",
         "fontSize": 28.43,
         "letterSpacing": "none",
@@ -394,7 +394,7 @@
     "XXL": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "Bold",
+        "fontWeight": 700,
         "lineHeight": "140%",
         "fontSize": 37.897,
         "letterSpacing": "none",
@@ -407,7 +407,7 @@
     "XXXL": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "Bold",
+        "fontWeight": 700,
         "lineHeight": "140%",
         "fontSize": 50.517,
         "letterSpacing": "none",
@@ -422,7 +422,7 @@
     "Small": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "SemiBold",
+        "fontWeight": 600,
         "lineHeight": "150%",
         "fontSize": 12.003,
         "letterSpacing": "none",
@@ -435,7 +435,7 @@
     "Medium": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "SemiBold",
+        "fontWeight": 600,
         "lineHeight": "150%",
         "fontSize": 16,
         "letterSpacing": "none",
@@ -448,7 +448,7 @@
     "Large": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "SemiBold",
+        "fontWeight": 600,
         "lineHeight": "150%",
         "fontSize": 21.328,
         "letterSpacing": "none",
@@ -461,7 +461,7 @@
     "XL": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "SemiBold",
+        "fontWeight": 600,
         "lineHeight": "150%",
         "fontSize": 28.43,
         "letterSpacing": "none",
@@ -474,7 +474,7 @@
     "XXL": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "SemiBold",
+        "fontWeight": 600,
         "lineHeight": "150%",
         "fontSize": 37.897,
         "letterSpacing": "none",
@@ -489,7 +489,7 @@
     "Small": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "Regular",
+        "fontWeight": 400,
         "lineHeight": "160%",
         "fontSize": 12.003,
         "letterSpacing": "none",
@@ -502,7 +502,7 @@
     "Medium": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "Regular",
+        "fontWeight": 400,
         "lineHeight": "160%",
         "fontSize": 16,
         "letterSpacing": "none",
@@ -515,7 +515,7 @@
     "Large": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "Regular",
+        "fontWeight": 400,
         "lineHeight": "160%",
         "fontSize": 21.328,
         "letterSpacing": "none",
@@ -528,7 +528,7 @@
     "XL": {
       "value": {
         "fontFamily": "Pretendard",
-        "fontWeight": "Regular",
+        "fontWeight": 400,
         "lineHeight": "160%",
         "fontSize": 28.43,
         "letterSpacing": "none",

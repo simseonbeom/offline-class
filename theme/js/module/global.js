@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 02 Sep 2022 14:21:25 GMT
+ * Generated on Fri, 02 Sep 2022 14:30:07 GMT
  */
 
 module.exports = {
@@ -90,9 +90,9 @@ module.exports = {
     "negativeTransparent": "#ff00001a"
   },
   "Pretendard": "Pretendard",
-  "Regular": "Regular",
-  "Bold": "Bold",
-  "SemiBold": "SemiBold",
+  "Regular": 400,
+  "SemiBold": 600,
+  "Bold": 700,
   "fontScale": 1.333,
   "default": 16,
   "Small": 12.003,
@@ -104,7 +104,7 @@ module.exports = {
   "Heading": {
     "Medium": {
       "fontFamily": "Pretendard",
-      "fontWeight": "Bold",
+      "fontWeight": 700,
       "lineHeight": "140%",
       "fontSize": 16,
       "letterSpacing": "none",
@@ -114,7 +114,7 @@ module.exports = {
     },
     "Large": {
       "fontFamily": "Pretendard",
-      "fontWeight": "Bold",
+      "fontWeight": 700,
       "lineHeight": "140%",
       "fontSize": 21.328,
       "letterSpacing": "none",
@@ -124,7 +124,7 @@ module.exports = {
     },
     "XL": {
       "fontFamily": "Pretendard",
-      "fontWeight": "Bold",
+      "fontWeight": 700,
       "lineHeight": "140%",
       "fontSize": 28.43,
       "letterSpacing": "none",
@@ -134,7 +134,7 @@ module.exports = {
     },
     "XXL": {
       "fontFamily": "Pretendard",
-      "fontWeight": "Bold",
+      "fontWeight": 700,
       "lineHeight": "140%",
       "fontSize": 37.897,
       "letterSpacing": "none",
@@ -144,7 +144,7 @@ module.exports = {
     },
     "XXXL": {
       "fontFamily": "Pretendard",
-      "fontWeight": "Bold",
+      "fontWeight": 700,
       "lineHeight": "140%",
       "fontSize": 50.517,
       "letterSpacing": "none",
@@ -156,7 +156,7 @@ module.exports = {
   "Label": {
     "Small": {
       "fontFamily": "Pretendard",
-      "fontWeight": "SemiBold",
+      "fontWeight": 600,
       "lineHeight": "150%",
       "fontSize": 12.003,
       "letterSpacing": "none",
@@ -166,7 +166,7 @@ module.exports = {
     },
     "Medium": {
       "fontFamily": "Pretendard",
-      "fontWeight": "SemiBold",
+      "fontWeight": 600,
       "lineHeight": "150%",
       "fontSize": 16,
       "letterSpacing": "none",
@@ -176,7 +176,7 @@ module.exports = {
     },
     "Large": {
       "fontFamily": "Pretendard",
-      "fontWeight": "SemiBold",
+      "fontWeight": 600,
       "lineHeight": "150%",
       "fontSize": 21.328,
       "letterSpacing": "none",
@@ -186,7 +186,7 @@ module.exports = {
     },
     "XL": {
       "fontFamily": "Pretendard",
-      "fontWeight": "SemiBold",
+      "fontWeight": 600,
       "lineHeight": "150%",
       "fontSize": 28.43,
       "letterSpacing": "none",
@@ -196,7 +196,7 @@ module.exports = {
     },
     "XXL": {
       "fontFamily": "Pretendard",
-      "fontWeight": "SemiBold",
+      "fontWeight": 600,
       "lineHeight": "150%",
       "fontSize": 37.897,
       "letterSpacing": "none",
@@ -208,7 +208,7 @@ module.exports = {
   "Paragraph": {
     "Small": {
       "fontFamily": "Pretendard",
-      "fontWeight": "Regular",
+      "fontWeight": 400,
       "lineHeight": "160%",
       "fontSize": 12.003,
       "letterSpacing": "none",
@@ -218,7 +218,7 @@ module.exports = {
     },
     "Medium": {
       "fontFamily": "Pretendard",
-      "fontWeight": "Regular",
+      "fontWeight": 400,
       "lineHeight": "160%",
       "fontSize": 16,
       "letterSpacing": "none",
@@ -228,7 +228,7 @@ module.exports = {
     },
     "Large": {
       "fontFamily": "Pretendard",
-      "fontWeight": "Regular",
+      "fontWeight": 400,
       "lineHeight": "160%",
       "fontSize": 21.328,
       "letterSpacing": "none",
@@ -238,7 +238,7 @@ module.exports = {
     },
     "XL": {
       "fontFamily": "Pretendard",
-      "fontWeight": "Regular",
+      "fontWeight": 400,
       "lineHeight": "160%",
       "fontSize": 28.43,
       "letterSpacing": "none",

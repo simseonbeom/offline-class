@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 02 Sep 2022 14:21:25 GMT
+ * Generated on Fri, 02 Sep 2022 14:30:07 GMT
  */
 
 export const 140 = "140%";
@@ -77,9 +77,9 @@ export const InfoPositive = "#39dd00";
 export const InfoPositiveTransparent = "#39dd001a";
 export const InfoNegativeTransparent = "#ff00001a";
 export const Pretendard = "Pretendard";
-export const Regular = "Regular";
-export const Bold = "Bold";
-export const SemiBold = "SemiBold";
+export const Regular = 400;
+export const SemiBold = 600;
+export const Bold = 700;
 export const FontScale = 1.333;
 export const Default = 16;
 export const Small = 12.003;
@@ -88,20 +88,20 @@ export const Large = 21.328;
 export const XL = 28.43;
 export const XXL = 37.897;
 export const XXXL = 50.517;
-export const HeadingMedium = {"fontFamily":"Pretendard","fontWeight":"Bold","lineHeight":"140%","fontSize":16,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const HeadingLarge = {"fontFamily":"Pretendard","fontWeight":"Bold","lineHeight":"140%","fontSize":21.328,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const HeadingXL = {"fontFamily":"Pretendard","fontWeight":"Bold","lineHeight":"140%","fontSize":28.43,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const HeadingXXL = {"fontFamily":"Pretendard","fontWeight":"Bold","lineHeight":"140%","fontSize":37.897,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const HeadingXXXL = {"fontFamily":"Pretendard","fontWeight":"Bold","lineHeight":"140%","fontSize":50.517,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const LabelSmall = {"fontFamily":"Pretendard","fontWeight":"SemiBold","lineHeight":"150%","fontSize":12.003,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const LabelMedium = {"fontFamily":"Pretendard","fontWeight":"SemiBold","lineHeight":"150%","fontSize":16,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const LabelLarge = {"fontFamily":"Pretendard","fontWeight":"SemiBold","lineHeight":"150%","fontSize":21.328,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const LabelXL = {"fontFamily":"Pretendard","fontWeight":"SemiBold","lineHeight":"150%","fontSize":28.43,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const LabelXXL = {"fontFamily":"Pretendard","fontWeight":"SemiBold","lineHeight":"150%","fontSize":37.897,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const ParagraphSmall = {"fontFamily":"Pretendard","fontWeight":"Regular","lineHeight":"160%","fontSize":12.003,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const ParagraphMedium = {"fontFamily":"Pretendard","fontWeight":"Regular","lineHeight":"160%","fontSize":16,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const ParagraphLarge = {"fontFamily":"Pretendard","fontWeight":"Regular","lineHeight":"160%","fontSize":21.328,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
-export const ParagraphXL = {"fontFamily":"Pretendard","fontWeight":"Regular","lineHeight":"160%","fontSize":28.43,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const HeadingMedium = {"fontFamily":"Pretendard","fontWeight":700,"lineHeight":"140%","fontSize":16,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const HeadingLarge = {"fontFamily":"Pretendard","fontWeight":700,"lineHeight":"140%","fontSize":21.328,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const HeadingXL = {"fontFamily":"Pretendard","fontWeight":700,"lineHeight":"140%","fontSize":28.43,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const HeadingXXL = {"fontFamily":"Pretendard","fontWeight":700,"lineHeight":"140%","fontSize":37.897,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const HeadingXXXL = {"fontFamily":"Pretendard","fontWeight":700,"lineHeight":"140%","fontSize":50.517,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const LabelSmall = {"fontFamily":"Pretendard","fontWeight":600,"lineHeight":"150%","fontSize":12.003,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const LabelMedium = {"fontFamily":"Pretendard","fontWeight":600,"lineHeight":"150%","fontSize":16,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const LabelLarge = {"fontFamily":"Pretendard","fontWeight":600,"lineHeight":"150%","fontSize":21.328,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const LabelXL = {"fontFamily":"Pretendard","fontWeight":600,"lineHeight":"150%","fontSize":28.43,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const LabelXXL = {"fontFamily":"Pretendard","fontWeight":600,"lineHeight":"150%","fontSize":37.897,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const ParagraphSmall = {"fontFamily":"Pretendard","fontWeight":400,"lineHeight":"160%","fontSize":12.003,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const ParagraphMedium = {"fontFamily":"Pretendard","fontWeight":400,"lineHeight":"160%","fontSize":16,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const ParagraphLarge = {"fontFamily":"Pretendard","fontWeight":400,"lineHeight":"160%","fontSize":21.328,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
+export const ParagraphXL = {"fontFamily":"Pretendard","fontWeight":400,"lineHeight":"160%","fontSize":28.43,"letterSpacing":"none","paragraphSpacing":"none","textDecoration":"none","textCase":"none"};
 export const Button = 20;
 export const AboveHigh = {"color":"#0000004d","type":"dropShadow","x":0,"y":-16,"blur":48,"spread":0};
 export const AboveMedium = {"color":"#00000033","type":"dropShadow","x":0,"y":-8,"blur":36,"spread":0};

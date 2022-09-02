@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 02 Sep 2022 14:21:25 GMT
+ * Generated on Fri, 02 Sep 2022 14:30:07 GMT
  */
 
 export const Primary = "#000000";
