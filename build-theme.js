@@ -1,5 +1,4 @@
-// 📁 build-theme.js 
-
+// 📁 build-theme.js
 
 /* 사용자 정의 구성 --------------------------------------------------------------- */
 
@@ -40,7 +39,10 @@ S.registerFormat({
   formatter(dictionary /* , config */) {
     return `${this.selector} {
 ${dictionary.allProperties
-  .map(({ name, value }) => `  --${name}: ${value};`)
+  .map(
+    ({ name, value }) =>
+      `  --${name}: ${name.includes('space-') ? `${value}px` : value};`
+  )
   .join('\n')}
 }`;
   },
@@ -64,6 +66,22 @@ const setCSS = (theme) => ({
       selector: theme.includes('global') ? ':root' : `.${theme}-theme`,
     },
   ],
+});
+
+/* SCSS 변수 포멧 ---------------------------------------------------------------- */
+
+S.registerFormat({
+  name: 'scss/variables',
+  formatter(dictionary /* , config */) {
+    return `${this.selector} {
+${dictionary.allProperties
+  .map(
+    ({ name, value }) =>
+      `  --${name}: ${name.includes('space-') ? `${value}px` : value};`
+  )
+  .join('\n')}
+}`;
+  },
 });
 
 /* SCSS 포멧 ------------------------------------------------------------------ */
@@ -98,7 +116,7 @@ S.registerTransform({
 // 포멧 구성 함수
 const setJS = (theme) => ({
   buildPath: `${OUTPUT_DIR}/`,
-  transforms: ['name/js/es6', 'pxToRem'],
+  transforms: ['name/js/es6', 'value/js/es6', 'size/px' /* 'pxToRem' */],
   files: [
     {
       destination: `js/esm/${theme}.js`,
@@ -120,8 +138,22 @@ S.registerTransform({
       tokenPathItems[i] =
         tokenPathItems[i].charAt(0).toUpperCase() + tokenPathItems[i].slice(1);
     }
-    const tokenName = tokenPathItems.join('');
+    let tokenName = tokenPathItems.join('');
+    tokenName = tokenName.includes('-')
+      ? tokenName.replace('-', '')
+      : tokenName;
     return tokenName;
+  },
+});
+
+S.registerTransform({
+  name: 'value/js/es6',
+  type: 'value',
+  matcher: function (token) {
+    return token.type === 'spacing';
+  },
+  transformer(token) {
+    return `${token.value}px`;
   },
 });
 
@@ -145,7 +177,7 @@ S.registerFormat({
   name: 'javascript/module',
   formatter({ dictionary, file }) {
     const recursiveleyFlattenDictionary = (obj) => {
-      const tree = {};
+      let tree = {};
       if (typeof obj !== 'object' || Array.isArray(obj)) {
         return obj;
       }
@@ -159,6 +191,16 @@ S.registerFormat({
           }
         }
       }
+
+      tree = Object.fromEntries(
+        Object.entries(tree).map(([key, value]) => {
+          if (key.includes('space-')) {
+            value = `${value}px`;
+          }
+          return [key, value];
+        })
+      );
+
       return tree;
     };
 
@@ -242,7 +284,9 @@ S.registerTransform({
   matcher: (token) => token.type === 'typography',
   transformer(token) {
     const { value } = token;
-    return `${value.fontWeight} ${value.fontSize + 'px'}/${value.lineHeight} ${value.fontFamily}`;
+    return `${value.fontWeight} ${value.fontSize + 'px'}/${value.lineHeight} ${
+      value.fontFamily
+    }`;
   },
 });
 
@@ -254,3 +298,30 @@ THEMES.split(' ').map((theme) => {
   PLATFORMS.split(' ').map((platform) => SD.buildPlatform(platform));
 });
 console.log('\n🪩  테마 빌드 FINISHED ------------\n');
+
+/* JSON 변환 ------------------------------------------------------------------ */
+
+function transformThemeJSON(path) {
+  const fs = require('fs');
+  const globalTheme = require(path);
+
+  const result = Object.fromEntries(
+    Object.entries(globalTheme).map(([key, valueObject]) => {
+      if (key.includes('space-')) {
+        valueObject = {
+          ...valueObject,
+          value: `${valueObject.value}px`,
+        };
+      }
+
+      return [key, valueObject];
+    })
+  );
+
+  fs.writeFileSync(
+    `${path.split('.json')[0]}.transformed.json`,
+    JSON.stringify(result, null, 2)
+  );
+}
+
+transformThemeJSON('./theme/global.json');
