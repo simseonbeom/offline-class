@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 05 Sep 2022 06:40:18 GMT
+ * Generated on Mon, 05 Sep 2022 07:16:38 GMT
  */
 
-export const Primary = "#000000";
+export const Primary = "#0075ff";
 export const Secondary = "#ffffff";
 export const Tertiary = "#f5f5f5";
 export const ContentsContentPrimary = "#000000";
