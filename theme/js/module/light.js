@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Mon, 04 Mar 2024 08:36:40 GMT
+ * Generated on Fri, 22 Mar 2024 05:27:59 GMT
  */
 
 module.exports = {
-  "primary": "#000000",
+  "primary": "#ff6666",
   "secondary": "#ffffff",
   "tertiary": "#f5f5f5",
   "contents": {
