@@ -1,7 +1,8 @@
 {
   "primary": {
-    "value": "#000000",
-    "type": "color"
+    "value": "#0075ff",
+    "type": "color",
+    "description": "chage"
   },
   "secondary": {
     "value": "#ffffff",
