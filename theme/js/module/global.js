@@ -1,29 +1,29 @@
 /**
  * Do not edit directly
- * Generated on Fri, 22 Mar 2024 05:27:59 GMT
+ * Generated on Wed, 07 Aug 2024 07:48:36 GMT
  */
 
 module.exports = {
   "140": "140%",
   "150": "150%",
   "160": "160%",
-  "baseSpace": 4,
-  "space-1": "4px",
-  "space-2": "8px",
-  "space-3": "12px",
-  "space-4": "16px",
-  "space-5": "20px",
-  "space-6": "24px",
-  "space-7": "28px",
-  "space-8": "32px",
-  "space-9": "36px",
-  "space-10": "40px",
-  "space-11": "44px",
-  "space-12": "48px",
-  "space-13": "52px",
-  "space-14": "56px",
-  "space-15": "60px",
-  "space-16": "64px",
+  "baseSpace": 8,
+  "space-1": "8px",
+  "space-2": "16px",
+  "space-3": "24px",
+  "space-4": "32px",
+  "space-5": "40px",
+  "space-6": "48px",
+  "space-7": "56px",
+  "space-8": "64px",
+  "space-9": "72px",
+  "space-10": "80px",
+  "space-11": "88px",
+  "space-12": "96px",
+  "space-13": "104px",
+  "space-14": "112px",
+  "space-15": "120px",
+  "space-16": "128px",
   "black": "#000000",
   "white": "#ffffff",
   "gray": {

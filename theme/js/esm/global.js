@@ -1,28 +1,28 @@
 /**
  * Do not edit directly
- * Generated on Fri, 22 Mar 2024 05:27:59 GMT
+ * Generated on Wed, 07 Aug 2024 07:48:36 GMT
  */
 
 export const 140 = "140%";
 export const 150 = "150%";
 export const 160 = "160%";
-export const BaseSpace = "4px";
-export const Space1 = "4px";
-export const Space2 = "8px";
-export const Space3 = "12px";
-export const Space4 = "16px";
-export const Space5 = "20px";
-export const Space6 = "24px";
-export const Space7 = "28px";
-export const Space8 = "32px";
-export const Space9 = "36px";
-export const Space10 = "40px";
-export const Space11 = "44px";
-export const Space12 = "48px";
-export const Space13 = "52px";
-export const Space14 = "56px";
-export const Space15 = "60px";
-export const Space16 = "64px";
+export const BaseSpace = "8px";
+export const Space1 = "8px";
+export const Space2 = "16px";
+export const Space3 = "24px";
+export const Space4 = "32px";
+export const Space5 = "40px";
+export const Space6 = "48px";
+export const Space7 = "56px";
+export const Space8 = "64px";
+export const Space9 = "72px";
+export const Space10 = "80px";
+export const Space11 = "88px";
+export const Space12 = "96px";
+export const Space13 = "104px";
+export const Space14 = "112px";
+export const Space15 = "120px";
+export const Space16 = "128px";
 export const Black = "#000000";
 export const White = "#ffffff";
 export const Gray100 = "#e1e1e1";
