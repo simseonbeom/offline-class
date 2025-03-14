@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 18 Oct 2024 04:54:32 GMT
+ * Generated on Fri, 14 Mar 2025 05:37:49 GMT
  */
 
 export const 140 = "140%";
